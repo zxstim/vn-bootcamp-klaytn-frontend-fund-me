@@ -34,8 +34,8 @@ const config = getDefaultConfig({
     klaytnBaobab
   ],
   transports: {
-    [klaytn.id]: http('https://rpc.ankr.com/klaytn/1964f021e9c1d476e8ffad405d72c08ac1c8479d556a25770393a0181f01ab8a'),
-    [klaytnBaobab.id]: http('https://rpc.ankr.com/klaytn_testnet/1964f021e9c1d476e8ffad405d72c08ac1c8479d556a25770393a0181f01ab8a'),
+    [klaytn.id]: http('https://rpc.ankr.com/klaytn'),
+    [klaytnBaobab.id]: http('https://rpc.ankr.com/klaytn_testnet'),
   },
   ssr: true,
 });
